@@ -1,0 +1,66 @@
+.side-bar {
+  width: 25%;
+  height: 90vh;
+}
+
+html {
+  font-size: 20px;
+}
+
+#cards
+{
+  padding: 15px;
+}
+
+.memory-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+  color: #161616;
+  font-size: 36px;
+  font-weight: 600;
+  border-radius: 5%;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.memory-card:hover {
+  transform: translateY(-5px);
+  background-color: #202020;
+  color: #202020;
+}
+
+.memory-card-flipped {
+  background-color: #404040;
+  color: #f0f0f0;
+}
+
+.memory-card-matched {
+  background-color: #fff;
+  color: #fff;
+}
+
+.memory-card-flipped:hover,
+.memory-card-matched:hover {
+  transform: none
+  
+}
+
+.memory-card-flipped:hover {
+  background-color: #404040;
+  color: #f0f0f0;
+}
+
+.memory-card-matched:hover {
+  background-color: #fff;
+  color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+  #container {
+    flex-direction: column;
+  }
+
+}
+  
